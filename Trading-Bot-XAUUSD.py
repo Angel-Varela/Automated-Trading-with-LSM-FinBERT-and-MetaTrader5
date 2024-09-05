@@ -51,13 +51,6 @@ class TradingBot():
         nearest_rows = data.iloc[min_short:max_short]
         long_rows = data.iloc[min_long:max_long]
         return nearest_rows, closest_index, now, data, long_rows
-    # def get_price(self):
-    #     data = LiveCryptoData('XAUUSD').return_data()
-    #     price = data['price']
-    #     if not isinstance(price, float):
-    #         price = float(price.iloc[0])
-    #     return price    
-
     #OUR RUN FUNCTION
     def run_function(self):
         #POSITIONAL SIZING
