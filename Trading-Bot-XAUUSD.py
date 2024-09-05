@@ -14,7 +14,7 @@ import threading
 
 if mt5.initialize():
     pass
-    if not mt5.initialize(login=51863590, server="ICMarketsSC-Demo",password="1lfz&CJ7jyX2N8"):
+    if not mt5.initialize(login=your_credentials, server="your_server",password="your_password"):
             print("initialize() failed, error code =",mt5.last_error())
 symbol = "XAUUSD"
 symbol_info = mt5.symbol_info(symbol)
@@ -25,7 +25,7 @@ class TradingBot():
     def get_df(self):
         #Import the dataframe
         columns_names = ("Date", "Price")
-        dataframe = pd.read_csv(r"C:\Users\Angel\OneDrive\Escritorio\Vs Code\.vscode\XAUSD30.csv", names=columns_names, skiprows=1)
+        dataframe = pd.read_csv(r"XAUUSD-Df.csv", names=columns_names, skiprows=1)
 
         #Right here we can  use the date colum on the dataframe in order to check the row and find the nearest 10 rows
         now_time = datetime.now().replace(microsecond=0, second=4) #We'll change seconds depending on the dataframe
