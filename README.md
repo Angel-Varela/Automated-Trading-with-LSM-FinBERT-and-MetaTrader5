@@ -1,4 +1,5 @@
-# Automated-Trading-with-LSM-FinBERT-and-MetaTrader5 💹🐮
+# Achilles, Neural Network to Predict the Gold Vs US Dollar
+Integration with Trading Bot for Automatic Trading 💹🐮
 
 We're implementing real time predictions from a LLSM Neural Netwok trained on historical data in a trading bot. Automatintg trading, fast, simple and affordable.
 
