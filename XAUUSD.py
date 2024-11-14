@@ -14,7 +14,7 @@ Initialize our model
 """
 if mt5.initialize():
     pass
-    if not mt5.initialize(login=51863590, server="ICMarketsSC-Demo",password="1lfz&CJ7jyX2N8"):
+    if not mt5.initialize(login="Your Accont", server="Your Server",password="Your Password"):
             print("initialize() failed, error code =",mt5.last_error())
 symbol = "XAUUSD"
 symbol_info = mt5.symbol_info(symbol)
