@@ -1,4 +1,4 @@
-# Achilles, Neural Network to Predict the Gold Vs US Dollar
+# Achilles, Neural Network to Predict Commodities
 Integration with Trading Bot for Automatic Trading 🤖💹
 
 Achilles Is a LSTM (Long Short Term Memory) Architecture made and optimized to predict GOLD Vs USD. For this implementation we take the power of LSTM, we process our data with two techinal indicators (EMA, RSI)
